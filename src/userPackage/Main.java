@@ -29,6 +29,7 @@ public class Main {
             e.printStackTrace();
         }
     }
+    // controls the crud operation selected by user
     public  static void handleCrudOperation() throws Exception{
         Scanner sc = new Scanner(System.in);
         UserRecord userRecord=new UserRecord();
