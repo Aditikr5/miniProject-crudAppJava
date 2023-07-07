@@ -10,6 +10,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
         handleCrudOperation();
     }
+
+    // controls the input selected by user
     public static void selectOptions(Scanner sc) {
         // Printing statements displaying options on console
         System.out.println("\n_____________________Actions________________________");
